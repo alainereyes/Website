@@ -3,8 +3,22 @@
     text-decoration: none;
 }
 
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: #EFEFEF;
+    --quarternary-color: #212529;
+}
+
+.light-theme{
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: #212529;
+    --quarternary-color: #EFEFEF;
+}
+
 header{
-    background-color: #212529;
+    background-color: var(--quarternary-color);
 }
 
 #icon{
@@ -22,7 +36,7 @@ header{
 
 .navbar-dark .navbar-nav .nav-link{
     padding-right: 20px;
-    color: white;
+    color: var(--primary-color);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -32,33 +46,33 @@ header{
 
 .first-sec{
     height: 100vh;
-    background-color: #212529;
+    background-color: var(--quarternary-color);
 }
 
 h1{
-    color: white;
+    color: var(--primary-color);
     font-size: 60px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h2{
-    color: white;
+    color: var(--primary-color);
     font-size: 45px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h3{
-    color: white;
+    color: var(--primary-color);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h4{
-    color: white;
+    color: var(--primary-color);
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
 }
 p{
-    color: white;
+    color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
 }
@@ -81,7 +95,7 @@ p{
 
 .items {
     font-size: 30px;
-    color: white;
+    color: var(--primary-color);
     margin: 0 20px 0 0;
 }
 
@@ -91,7 +105,7 @@ p{
 }
 
 .second-sec{
-    background-color: black;
+    background-color: var(--secondary-color);
     padding-bottom: 100px;
 }
 
@@ -122,23 +136,23 @@ p{
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: white;
-    background-color: black;
-    border: 3px solid white;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
    
 .button:hover {
-    color: white;
-    background-color: black;
-    border: 3px solid white;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
 .third-sec{
-    background-color: #212529;
+    background-color: var(--quarternary-color);
     padding-bottom: 50px;
 }
 
@@ -153,7 +167,7 @@ p{
 }
 
 .educ span{
-    color: white;
+    color: var(--primary-color);
     border: 1px solid gray;
     padding: 2px;
 }
@@ -163,7 +177,7 @@ p{
 }
 
 .progress-bar{
-    color: black;
+    color: var(--secondary-color);
     background-color: cyan;
 }
 
@@ -177,38 +191,38 @@ p{
 
 
 .hobbies h4{
-    color: white;
+    color: var(--primary-color);
 }
 
 .fourth-sec{
-    background-color: black;
-    color: black;
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
     padding: 50px 100px 100px 100px;
 }
 
 .card-title{
-    color: black;
+    color: var(--secondary-color);
 }
 
 
 .last-sec{
-    background-color: #212529;
-    color: white;
+    background-color: var(--quarternary-color);
+    color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
     padding: 100px;
 }
 
 .btn{
     background-color: cyan;
-    color: black;
+    color: var(--secondary-color);
 }
 
 .btn:hover{
-    background-color: white;
+    background-color: var(--primary-color);
 }
 
 footer{
-    background-color: black;
+    background-color: var(--secondary-color);
     padding: 10px;
     text-align: center;
 }
@@ -280,8 +294,8 @@ footer{
     }
     
     .fourth-sec{
-        background-color: black;
-        color: black;
+        background-color: var(--secondary-color);
+        color: var(--secondary-color);
         padding: 50px 10px 50px 10px;
     }
 }

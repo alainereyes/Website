@@ -74,17 +74,12 @@ p{
     display: inline-flex;
 }
 
-.items{
-    flex: 1;
-    color: white;    
-}
-
-.items a{
+.items {
     font-size: 20px;
     color: white;
 }
 
-.items a:hover{
+.items :hover{
     color: cyan;
     transform: scale(1.2);
 }

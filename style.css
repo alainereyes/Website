@@ -79,12 +79,12 @@ p{
     color: white;    
 }
 
-.items{
+.items i{
     font-size: 20px;
     color: white;
 }
 
-.items :hover{
+.items i:hover{
     color: cyan;
     transform: scale(1.2);
 }

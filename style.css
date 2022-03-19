@@ -281,7 +281,7 @@ footer{
     transform: translateX(-26px);
 }
 
-/** Mobile View **/
+/* Mobile View */
 @media (max-width: 768px) {
     .web-mock img{
         width:100%;

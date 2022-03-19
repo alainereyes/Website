@@ -3,21 +3,6 @@
     text-decoration: none;
 }
 
-:root{
-    --main-color: #6C56E1;
-    --primary-color: #edf2fc;
-    --secondary-color: #212121;
-    --nav-color: #edf2fc;
-    --nav-text-color: #6C56E1;
-}
-
-.dark-mode{
-    --primary-color: #212121;
-    --secondary-color: #edf2fc;
-    --nav-color: #6C56E1;
-    --nav-text-color: #edf2fc;
-}
-
 header{
     background-color: #212529;
 }
@@ -97,7 +82,7 @@ p{
 
 .items :hover{
     color: cyan;
-    transform: scale(1.2);
+    font-size: 35px;
 }
 
 .second-sec{

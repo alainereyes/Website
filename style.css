@@ -44,6 +44,10 @@ header{
     color: cyan;
 }
 
+.bg-dark{
+    background-color: var(--primary-color);
+}
+
 .first-sec{
     height: 100vh;
     background-color: var(--quarternary-color);

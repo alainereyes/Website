@@ -36,6 +36,9 @@ header{
 
 .navbar-brand img{
     width: 50%;
+    background-color: #212529;
+    border-radius: 10px;
+    border: #212529 solid 1px;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -163,7 +166,6 @@ p{
 
 .third-sec{
     background-color: var(--quarternary-color);
-    padding-bottom: 50px;
 }
 
 .heading h2{
@@ -191,6 +193,10 @@ p{
     background-color: var(--highlight-color);
 }
 
+.progress{
+    background-color: var(--tertiary-color);
+    height: 15px;
+}
 
 .hobbies svg{
     display: inline-block;
@@ -219,7 +225,8 @@ p{
     background-color: var(--quarternary-color);
     color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
-    padding: 100px;
+    font-weight: bold;
+    padding: 100px 300px;
 }
 
 .btn{

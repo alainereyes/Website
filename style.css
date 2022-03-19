@@ -207,6 +207,42 @@ footer{
     text-align: center;
 }
 
+#Mode{
+    height: 30px;
+    width: 80px;
+    margin: 10px 20px;
+    background: var(--secondary-color);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#switch{
+    height: 26px;
+    width: 26px;
+    margin: 2px 2px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    transition: transform .5s;
+}
+
+.switch-active{
+    transform: translateX(50px);
+}
+
+#inner-text{
+    font-size: 15px;
+    right: 10px;
+    color: var(--primary-color);
+    transition: transform .5s;
+    position: absolute;
+}
+
+.Inner-text-active{
+    transform: translateX(-26px);
+}
+
 @media (max-width: 768px) {
     /* .web-mock img{
         display: none;

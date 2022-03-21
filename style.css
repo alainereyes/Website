@@ -30,6 +30,16 @@ header{
     cursor: pointer;
 }
 
+.navbar-dark .navbar-toggler-icon{
+    background-color: #212529;
+    border-radius: 3px;
+}
+
+.navbar-dark .navbar-toggler{
+    border: var(--primary-color) solid 1px;
+    background-color: #212529;
+}
+
 .navbar-brand{
     margin-right: -70px;
 }
@@ -218,7 +228,7 @@ p{
 }
 
 .card-title{
-    color: var(--secondary-color);
+    color: black;
 }
 
 
@@ -307,6 +317,10 @@ footer{
 
     .info{
         padding-bottom: 200px;
+    }
+
+    .third-sec{
+        padding-bottom: 50px;
     }
 
     .last-sec{

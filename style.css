@@ -253,6 +253,7 @@ footer{
     background-color: var(--secondary-color);
     padding: 10px;
     text-align: center;
+    font-weight: bolder;
 }
 
 #Mode{
@@ -292,7 +293,7 @@ footer{
 }
 
 /* Mobile View */
-@media (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .web-mock img{
         width:100%;
         margin-top:0;
@@ -322,14 +323,30 @@ footer{
     .third-sec{
         padding-bottom: 50px;
     }
-
-    .last-sec{
-        padding: 20px;
-    }
     
     .fourth-sec{
         background-color: var(--secondary-color);
         color: var(--secondary-color);
         padding: 50px 10px 50px 10px;
+    }
+
+    .last-sec{
+        padding: 20px;
+    }
+}
+
+/* Ipad Air */
+@media only screen and (min-width: 820px) and (max-width: 1180px){
+    .web-mock img{
+        width:100%;
+        margin-top:400px;
+    }
+
+    .info{
+        margin-top: 250px;
+    }
+
+    .last-sec{
+        padding: 100px;
     }
 }
